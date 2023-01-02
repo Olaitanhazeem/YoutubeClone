@@ -1,0 +1,85 @@
+.video-preview {
+    margin-right: 0;
+}
+.image-div {
+    position: relative;
+
+
+}
+.video-timer {
+    position: absolute;
+    background-color: black;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    border-radius: 3px;
+  font-size: 13px;
+  font-weight: 500;
+    padding: 2px 4px;
+    
+}
+.p {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.title {
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 0;
+
+}
+.author {
+    margin-bottom: 0;
+    margin-top: 3px;
+    font-size: 13px;
+    color: gray;
+    width: 200px;
+}
+.views {
+    margin-top: 0;
+    font-size: 11px;
+    color: gray;
+    margin-top: 4px;
+}
+.picture {
+    display: inline-block;
+    width: 30px;
+    vertical-align: top;
+}
+.info {
+    display: inline-block;
+    width: 100%;
+    
+}
+
+.pp {
+    width: 100%;
+    border-radius: 50px;
+}
+.infomation {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 30px;
+    transition-duration: 5ms;
+    transition-delay: 10s;
+}
+@media (max-width:750px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.video-preview :hover {
+  cursor: pointer;
+
+}

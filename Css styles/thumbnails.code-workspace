@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "thumbnails",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "thumbnails"
+	}
+}
